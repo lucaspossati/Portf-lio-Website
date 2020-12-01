@@ -1,13 +1,4 @@
-/**
-* Template Name: iPortfolio - v2.0.2
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
@@ -121,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 300px;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1100px) {
   #header {
     left: -300px;
   }
@@ -157,6 +148,14 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 8px;
   transition: 0.3s;
   font-size: 15px;
+}
+
+@media (max-width: 1300px){
+  .nav-menu a{
+  padding: -2px 15px;
+  margin-bottom: -2px;
+  font-size: 13px;
+  }
 }
 
 .nav-menu a i {
@@ -518,6 +517,8 @@ section {
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
+
+
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
   color: #149ddd;
@@ -1013,6 +1014,12 @@ section {
   background: #fff;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   z-index: 2;
+}
+
+@media (max-width: 1300px){
+  .portfolio-details .portfolio-info {
+    padding: 12px;
+  }
 }
 
 .portfolio-details .portfolio-info h3 {
